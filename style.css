@@ -1,0 +1,323 @@
+/* yazı fontu */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+
+
+
+.ahm-dag-foto{
+
+    height:75px;
+    width:75px;
+    
+}
+
+.navbar-arkaplan-rengi{
+background-color: #D3D0D5;
+}
+
+.anasayfa_govde{
+    /* background: rgba(68, 65, 65, 0.282) !important; */
+
+    background-image: url(img/ana_govde_arka_plan.jpg) !important;
+    height:100vh !important;
+    width: 100% !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+ }
+
+ .hakkimda_govde{
+    /* background: rgba(68, 65, 65, 0.282) !important; */
+    
+    background-image: url(img/ana_govde_arka_plan.jpg) !important;
+    /* height: 100vh!important; */
+    /* height: 1000px; */
+    /* width: 100% !important; */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+ }
+
+ .ahmdag-tanitim-ozet{
+    margin-top: 100px!important;
+    /* align-items: center!important;
+    justify-content: center!important; */
+    text-align: justify!important;
+   
+
+
+ }
+
+
+.h12{
+
+  height: 225px !important;
+}
+
+
+ .ahmdag-tanitim-ozet span{
+
+font-weight: 900;
+text-decoration-line: underline;
+
+
+ }
+.w-70{
+
+    height:70px;
+    width:70px;
+
+}
+
+.w-40{
+
+    height:50px;
+    width:50px;
+
+}
+
+
+
+.text-gri{
+
+  color:#D3D0D5 !important;
+}
+
+
+.text-beyaz{
+
+  color:#faf8f8 !important;
+}
+
+.text-gri1{
+
+  color:#FFFFFF!important;
+}
+
+
+
+.sosyal-media .instagram:hover{
+
+    background-color: purple;
+}
+
+.sosyal-media .facebook:hover{
+
+    background-color: blue;
+}
+
+.sosyal-media .linkedin:hover{
+
+    background-color:#0A66C2
+}
+
+.place_logo{
+    color:red !important;
+
+
+
+
+}
+
+.place_logo::placeholder{
+    color:#595757 !important;
+
+
+
+
+}
+
+
+/* .place_logo:valid u da input area için kullanılabilir */
+
+/* aşağıda outline yerne border girersen tıklama sırasında oynama oluyor yapıda */
+.place_logo:focus
+
+{
+    outline: 2px solid blue !important;
+    background-color: #E5E4CB;
+    
+
+
+}
+
+
+
+.isim-input::placeholder{
+
+    color:aqua !important;
+
+}
+
+
+.isim-input:focus{
+
+    outline:1px solid rgb(157, 255, 0) !important;
+
+}
+
+
+
+/* .vid{
+height:300px;
+width:600px;
+}
+
+.ppp{
+height:300px;
+width:600px;
+justify-content: center;
+}
+
+
+.vid video{
+width:100%;
+height:300px;
+object-fit: cover;
+} */
+
+
+.bg-gri{
+
+  background-color:#D5DEE3!important;
+  
+  
+}
+
+.bg-gri1{
+
+  background-color:#D3D0D5!important;
+  
+  
+}
+
+
+
+
+.bg-yesil{
+
+background-color:#3F4C3B;
+} 
+
+.bg-beyz{
+
+background-color:#D3D0D5
+} 
+
+ .kayan-yazi{
+top: 200px !important;
+align-items: center !important;
+}
+
+.Ahmdag-baslik{
+
+    font-size:  120px !important;
+     font-family: "Rubik Distressed", system-ui;
+}
+
+
+.slider-content{
+  display: flex;
+  animation: scroll 12s linear infinite, renk 5s linear infinite;
+
+     font-family: "Rubik Distressed", system-ui;
+}
+ 
+
+
+.slider-content img{
+  width:500px;
+  height:300px;
+  border: 2px solid #E5E4CB;
+
+}
+
+.challenge{
+animation: renk1 1s linear infinite;
+
+}
+
+.challenge p{
+  font-size: x-large;
+}
+
+@keyframes scroll{
+
+  0% {transform: translateX(100%);
+
+  }
+
+    
+
+ 
+  100% {transform: translateX(-100%);
+  }
+}
+
+@keyframes renk{
+
+  0% {color: blue} ;
+
+    0% {transform: translateX(100%);
+
+  }
+
+  
+  10% {color:black} ;
+
+      10% {transform: translateX(90%);
+
+  }
+
+  
+  20% {color:green} ;
+
+        20% {transform: translateX(80%);
+
+  }
+  
+   30% {color:yellow} ;
+
+          30% {transform: translateX(70%);
+
+  }
+
+
+    40% {color:red} ;
+
+            40% {transform: translateX(60%);
+
+  }
+  
+
+  
+    50% {color:pink} ;
+
+              50% {transform: translateX(50%);
+
+  }
+  
+ 
+ 
+}
+
+@keyframes renk1{
+
+  0% {background-color: rgba(0, 0, 255, 0.78)} ;
+
+    0% {transform: translateX(100%);
+
+  }
+
+  
+  100% {background-color:rgba(224, 246, 23, 0.736)} ;
+
+      100% {transform: translateX(0%);
+
+  }
+
+  
+ 
+ 
+ 
+}
